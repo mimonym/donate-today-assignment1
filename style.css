@@ -7,7 +7,14 @@ body {
     color: #3e3e3e;
   }
   .half-width h1 {
+    text-align: center;
     font-size: 40px;
+    line-height: 25px;
+    color:white;
+  }
+  .half-width p {
+    text-align: center;
+    font-size: 20px;
     line-height: 30px;
     color:white;
   }
@@ -18,7 +25,7 @@ body {
  
   }
   .half-width {
-    background-image: url(img/donation13.jpg);
+    background-image: url(img/donation1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
@@ -35,15 +42,16 @@ body {
   .orange-color {
     color: #ffad5a;
   }
-  .donate-now-button{
+  .half-width .donate-now-button{
     text-decoration: none;
     background-color: #ff5959;
     color: white;
-    padding: 10px 30px;
+    padding: 15px 35px;
     border-radius: 7px;
     font-weight: 500;
-    margin-top: 5px;
-    margin-top: 10%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 45%;
   }
   .link-button {
     align-content: center;
@@ -60,18 +68,23 @@ body {
   /*TK amount section*/
   .secondtop h1{
     font-size: 40px;
-    margin-left: 45%;
+    text-align: center;
   }
+
   .secondtop p{
-  margin-bottom: 10%;
+    text-align:center ;
   }
+
   .tk{
-    margin-left: 30%;
+    margin-left: 28%;
     margin-bottom: 5%;
+    margin-top: 7%;
   }
   .tk-button{
      text-decoration: none;
       background: rgba(230, 230, 230, 0.892);
+      font-size: 20px;
+      font-weight: bold;
       margin-top: 5%;
       padding: 5% 5% ;
       border-radius: 5%;
@@ -88,31 +101,44 @@ body {
     box-shadow: 0 0 0 4px #5a01a7;
 }
 .tk-button:focus {
-   outline-color: transparent;
+   outline-color:#ff5959;
     outline-style:solid;
-    box-shadow: 0 0 0 4px #ff5959;
+    box-shadow: 0 0 0 4px #5a01a7;
     transition: 0.7s;
-  }
- 
+}
+
   .last p{
    color: grey;
    padding-top: 5%;
   }
-  /* CARDS SECTION */
- 
+  .last .donate-now-button{
+    text-decoration: none;
+    background-color: #ff5959;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 7px;
+    font-weight: 500;
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 45%;
+
+  }
+  
+  /* Second SECTION */
+  
   .headline h1{
+    text-align: center;
    font-size: 40px;
     margin-top: 15%;
-    margin-left: 35%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
   }
   .donate-plan .card {
     padding: 0px 150px;
     border-radius: 10px;
   }
   .donate-plan .card img {
-    width: 30%;
-    margin-top: 10%;
+    padding: 0px 150px;
+    border-radius: 10px;
   }
   #food {
     background-color: #d0eaed;
@@ -131,21 +157,25 @@ body {
     padding: 20px 20px;
     margin-left: 25px;
   }
+
+
   /* MODULE 4 */
   .width-small {
     width: 45%;
   }
   .width-small img {
-    width: 50%;
-    padding-left: 150px;
-    padding-top: 8%;
+    width: 456px;
+    height: 456px;
+   margin-left: 20%;
+   margin-top: 5%;
   }
   .width-large {
     width: 50%;
-    padding-top: 20px;
+    padding-top: 30px;
   }
   .width-large h2 {
     line-height: 20px;
+    font-size: 40px;
   }
  
   .contribution .half-width img {
@@ -158,14 +188,17 @@ body {
     width: 30%;
   }
   .about-color {
-    color: cornflowerblue;
+    color:rgb(255, 149, 0);
   }
   .email{
     background-color: #FFF4D6;
-    padding: 40px 40px;
-    margin-left: 22%;
-    margin-right: 22%;
+    padding: 40px 30px;
+    margin-left: 36%;
+    margin-right: 36%;
     margin-bottom: 5%;
+  }
+  .contribution p{
+    text-align: center;
   }
  
   /* FOOTER part */
@@ -173,10 +206,14 @@ body {
     width: 100%;
     background-color: #0b0d17;
     color: white;
-
+    text-align: center;
     line-height: 30px;
     padding: 20px 0px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+  }
+
+  .footer h3{
+    font-family: 'DynaPuff', cursive;
   }
  
   .footer p {
@@ -185,7 +222,7 @@ body {
   #footer-color {
     color: #ff5959;
   }
-  .lime {
-    color: rgb(174, 255, 0);
+  .nickname {
+    color: yellow;
   }
  
