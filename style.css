@@ -9,15 +9,7 @@ body {
   .half-width h1 {
     font-size: 40px;
     line-height: 30px;
-    padding-left: 40%;
     color:white;
-   
-  }
-  h2 {
-    font-size: 35px;
-  }
-  h3 {
-    font-size: 30px;
   }
   .flex-container {
     display: flex;
@@ -44,7 +36,6 @@ body {
     color: #ffad5a;
   }
   .donate-now-button{
-    align-content: center;
     text-decoration: none;
     background-color: #ff5959;
     color: white;
@@ -52,7 +43,6 @@ body {
     border-radius: 7px;
     font-weight: 500;
     margin-top: 5px;
-    position: relative;
     margin-top: 10%;
   }
   .link-button {
@@ -74,7 +64,6 @@ body {
   }
   .secondtop p{
   margin-bottom: 10%;
-  margin-left: 20%;
   }
   .tk{
     margin-left: 30%;
@@ -96,10 +85,10 @@ body {
   .tk-button:focus {
     outline-color: transparent;
     outline-style:solid;
-    box-shadow: 0 0 0 4px #ff5959;
-  }
-  .tk-button:focus {
-    outline-color: transparent;
+    box-shadow: 0 0 0 4px #5a01a7;
+}
+.tk-button:focus {
+   outline-color: transparent;
     outline-style:solid;
     box-shadow: 0 0 0 4px #ff5959;
     transition: 0.7s;
@@ -111,12 +100,8 @@ body {
   }
   /* CARDS SECTION */
  
-  .card flex-container{
-    margin-left: 10%;
-  }
   .headline h1{
-    font-size: 40px;
-    line-height: 30px;
+   font-size: 40px;
     margin-top: 15%;
     margin-left: 35%;
     margin-bottom: 5%;
@@ -188,7 +173,7 @@ body {
     width: 100%;
     background-color: #0b0d17;
     color: white;
-    text-align: center;
+
     line-height: 30px;
     padding: 20px 0px;
     letter-spacing: 2px;
